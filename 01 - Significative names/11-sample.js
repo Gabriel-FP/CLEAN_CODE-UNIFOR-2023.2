@@ -10,7 +10,7 @@ class z {
         this.h = h;
     }
 
-    x() {
+    isActive() {
         if (this.f) {
             console.log("Ativo");
         } else {
