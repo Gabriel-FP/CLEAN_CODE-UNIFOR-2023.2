@@ -1,10 +1,10 @@
 let usuarioObjeto = {
-    n: "João",
-    i: 25
+    nome: "João",
+    idade: 25
 };
 
-function exUsr(o) {
-    console.log(o.n + " tem " + o.i + " anos.");
+function existeUsuario(usuarioObjeto) {
+    console.log(o.nome + " tem " + o.idade + " anos.");
 }
 
 exUsr(usuarioObjeto);
